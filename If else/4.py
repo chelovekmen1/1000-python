@@ -1,0 +1,9 @@
+a, b, c = map(int, input().split())
+k = 0
+if a > 0:
+    k += 1
+if b > 0:
+    k += 1
+if c > 0:
+    k += 1
+print(k)
